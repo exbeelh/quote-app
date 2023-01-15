@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    transition: all 1s;
+}
+
+.card {
+    margin: auto;
+    margin-top: 25vh;
+    width: 500px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px;
+}
+
+.quotes {
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.author {
+    height: 50px;
+    padding: 30px;
+    text-align: end;
+}
+
+.button {
+    display: flex;
+    height: 60px;
+    justify-content: end;
+    padding: 15px;
+}
+
+#generate {
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+}
